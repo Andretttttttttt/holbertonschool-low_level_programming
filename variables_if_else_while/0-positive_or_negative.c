@@ -14,7 +14,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	printf("%d ", n);
+	printf("%d ", n);  // Esta línea no es necesariamente larga, pero si tiene más de 80, debes dividirla
 
 	if (n > 0)
 		printf("is positive\n");
