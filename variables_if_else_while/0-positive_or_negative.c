@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
-* main - Generates a random number and classifies it as positive, negative, or zero
+* main-Generates a random number and classifies it as positive, negative, or zero
 *
-* Return: Always 0 (Success)
+* Return:Always 0 (Success)
 */
 int main(void)
 {
