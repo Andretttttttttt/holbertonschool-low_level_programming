@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    int n;
+    int n = 98;
     int last_digit;
 
     srand(time(0));  /* Inicializa el generador de números aleatorios */
