@@ -5,12 +5,12 @@
 int main(void)
 {
     int n;
-    int last_digit;  // Declare variables at the beginning
+    int last_digit;
 
     srand(time(0));  /* Initializes the random number generator */
     n = rand();  /* Generates a random number */
 
-    last_digit = n % 10;  /* Get the last digit of n */
+    last_digit = abs(n) % 10;  /* Get the last digit of n, using absolute value for negative numbers */
 
     printf("Last digit of %d is %d", n, last_digit);
 
