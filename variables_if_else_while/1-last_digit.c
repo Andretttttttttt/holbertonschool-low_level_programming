@@ -7,10 +7,10 @@ int main(void)
     int n;
     int last_digit;
 
-    srand(time(0));  /* Initializes the random number generator */
-    n = rand();  /* Generates a random number */
+    srand(time(0));  /* Inicializa el generador de números aleatorios */
+    n = rand();  /* Genera un número aleatorio */
 
-    last_digit = abs(n) % 10;  /* Get the last digit of n, using absolute value for negative numbers */
+    last_digit = abs(n) % 10;  /* Obtiene el último dígito de n, usando valor absoluto para números negativos */
 
     printf("Last digit of %d is %d", n, last_digit);
 
